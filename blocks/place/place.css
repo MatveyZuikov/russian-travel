@@ -1,0 +1,19 @@
+.place {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "title url"
+  "img text";
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+  "title"
+  "url"
+  "img"
+   "text";
+  }
+}
