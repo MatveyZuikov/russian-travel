@@ -3,8 +3,14 @@
   margin: 0 0 0 40px;
 }
 
-@media (min-width:320px) and (max-width: 768px) {
+@media (min-width:450px) and (max-width: 768px) {
   .place__text-container{
   margin: 32px auto 50px;
+  }
+}
+
+@media (min-width:320px) and (max-width: 449px) {
+  .place__text-container{
+  margin: 32px 16px 50px;
   }
 }
