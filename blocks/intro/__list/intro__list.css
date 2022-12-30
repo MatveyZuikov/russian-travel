@@ -1,11 +1,9 @@
 .intro__list {
   max-width: 690px;
   max-height: 90px;
-  font-style: 'Inter', sans-serif;
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 500;
   margin: 0 auto 92px 148px;
+  list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 1024px) {
