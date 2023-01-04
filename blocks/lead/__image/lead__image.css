@@ -1,6 +1,5 @@
 .lead__image {
   max-width: 984px;
-  max-height: 615px;
   margin: 64px auto 8px;
   width: 100%;
 }
@@ -8,7 +7,6 @@
 @media (max-width:1024px) {
   .lead__image {
     max-width: 928px;
-    max-height: 580px;
     margin: 56px auto 8px;
   }
 }
@@ -16,14 +14,12 @@
 @media (max-width:768px) {
   .lead__image {
     max-width: 768px;
-    max-height: 480px;
   }
 }
 
 @media (max-width:320px) {
   .lead__image {
     max-width: 320px;
-    max-height: 200px;
-    margin: 40px auto 8px;
+    margin: 40px 0 8px;
   }
 }
